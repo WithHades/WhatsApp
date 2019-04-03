@@ -1,0 +1,70 @@
+﻿<metro:MetroWindow x:Class="Wx.Qunkong360.Wpf.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wx.Qunkong360.Wpf"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+                   xmlns:winform="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        mc:Ignorable="d"
+        Title="MainView" Height="768" Width="1366" MinWidth="1366" MinHeight="768" Loaded="MetroWindow_Loaded" WindowStartupLocation="CenterScreen" Closing="MetroWindow_Closing" FontSize="16" Background="#197743">
+    <metro:MetroWindow.WindowTitleBrush>
+        <SolidColorBrush Color="#07aa50"></SolidColorBrush>
+    </metro:MetroWindow.WindowTitleBrush>
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+                <Setter Property="Foreground" Value="White"></Setter>
+                <Setter Property="Background" Value="#07aa50"></Setter>
+                <Setter Property="FontSize" Value="16"></Setter>
+            </Style>
+        </Grid.Resources>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="129,0,78,0">
+            <!--<StackPanel.Background>
+                <ImageBrush ImageSource="pack://application:,,,/qunkong360;component/Images/background.png" TileMode="Tile"  ViewportUnits="Absolute" Stretch="None" Viewport="0,0,400,200" Opacity="0.5">
+                    <ImageBrush.Transform>
+                        <RotateTransform Angle="-30"></RotateTransform>
+                    </ImageBrush.Transform>
+                </ImageBrush>
+            </StackPanel.Background>-->
+
+            <Button x:Name="btnLaunchWhatsApp" Width="200" Height="35" Margin="10" Click="btnLaunchWhatsApp_Click"></Button>
+            <Button x:Name="btnCloseWhatsApp" Width="200" Height="35" Margin="10" Click="btnCloseWhatsApp_Click"></Button>
+
+            <Button x:Name="btnCloseAll" Width="200" Height="35" Margin="10" Click="btnCloseAll_Click"></Button>
+
+            <Button x:Name="btnOperation" Width="200" Height="35" Margin="10" Click="btnOperation_Click"></Button>
+
+
+            <!--<Button x:Name="btnSettings" Width="200" Height="35" Margin="10" Click="btnSettings_Click"></Button>-->
+            <Button x:Name="btnInstallApk" Width="200" Height="35" Margin="10" Click="btnInstallApk_Click"></Button>
+        </StackPanel>
+
+        <WindowsFormsHost Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+            <winform:Panel x:Name="container" AutoScroll="True"></winform:Panel>
+        </WindowsFormsHost>
+
+        <ListBox Grid.Row="1" x:Name="listGroups" Margin="8">
+            <!--<ListBox.Background>
+                <ImageBrush ImageSource="pack://application:,,,/qunkong360;component/Images/background.png" TileMode="Tile"  ViewportUnits="Absolute" Stretch="None" Viewport="0,0,400,200" Opacity="0.5">
+                    <ImageBrush.Transform>
+                        <RotateTransform Angle="-30"></RotateTransform>
+                    </ImageBrush.Transform>
+                </ImageBrush>
+            </ListBox.Background>-->
+        </ListBox>
+
+    </Grid>
+</metro:MetroWindow>

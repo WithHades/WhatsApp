@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39D916FE-2C09-47AB-A5A2-1A23787F20BA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Xzy.Sockets</RootNamespace>
+    <AssemblyName>Xzy.Sockets</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Logrila.Logging, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Logrila.Logging.1.0.3.0\lib\net46\Logrila.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\SolutionVersion.cs">
+      <Link>SolutionVersion.cs</Link>
+    </Compile>
+    <Compile Include="Buffer\SegmentBufferDeflector.cs" />
+    <Compile Include="Buffer\BufferValidator.cs" />
+    <Compile Include="Buffer\ISegmentBufferManager.cs" />
+    <Compile Include="Buffer\SegmentBufferManager.cs" />
+    <Compile Include="Buffer\UnableToAllocateBufferException.cs" />
+    <Compile Include="Buffer\UnableToCreateMemoryException .cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Tcp\Client\EAP\TcpSocketSaeaClient.cs" />
+    <Compile Include="Tcp\Client\EAP\TcpSocketSaeaClientConfiguration.cs" />
+    <Compile Include="Tcp\Client\EAP\ITcpSocketSaeaClientEventDispatcher.cs" />
+    <Compile Include="Tcp\Client\EAP\DefaultTcpSocketSaeaClientEventDispatcher.cs" />
+    <Compile Include="Tcp\Framing\LengthFieldBasedFrameBuilder.cs" />
+    <Compile Include="Tcp\Framing\RawBufferFrameBuilder.cs" />
+    <Compile Include="Tcp\Framing\FixedLengthFrameBuilder.cs" />
+    <Compile Include="Tcp\Framing\Base\FrameBuilder.cs" />
+    <Compile Include="Tcp\Framing\Base\IFrameDecoder.cs" />
+    <Compile Include="Tcp\Framing\Base\IFrameEncoder.cs" />
+    <Compile Include="Tcp\Server\EAP\Awaitable\SaeaAwaiter.cs" />
+    <Compile Include="Tcp\Server\EAP\Awaitable\SaeaExtensions.cs" />
+    <Compile Include="Tcp\Server\EAP\ITcpSocketSaeaServerEventDispatcher.cs" />
+    <Compile Include="Tcp\Server\EAP\DefaultTcpSocketSaeaServerEventDispatcher.cs" />
+    <Compile Include="Tcp\Server\EAP\Pooling\ObjectPool.cs" />
+    <Compile Include="Tcp\Server\EAP\Pooling\SessionPool.cs" />
+    <Compile Include="Tcp\Server\EAP\Pooling\SaeaPool.cs" />
+    <Compile Include="Tcp\Server\EAP\Awaitable\SaeaAwaitable.cs" />
+    <Compile Include="Tcp\Server\EAP\TcpSocketSaeaServer.cs" />
+    <Compile Include="Tcp\Server\EAP\TcpSocketSaeaSession.cs" />
+    <Compile Include="Tcp\Client\TAP\AsyncTcpSocketClientConfiguration.cs" />
+    <Compile Include="Tcp\Client\APM\TcpSocketClientConfiguration.cs" />
+    <Compile Include="Tcp\Framing\Base\IFrameBuilder.cs" />
+    <Compile Include="Tcp\Framing\LineBasedFrameBuilder.cs" />
+    <Compile Include="Tcp\Framing\LengthPrefixedFrameBuilder.cs" />
+    <Compile Include="Tcp\Server\TAP\AsyncTcpSocketServerConfiguration.cs" />
+    <Compile Include="Tcp\Server\EAP\TcpSocketSaeaServerConfiguration.cs" />
+    <Compile Include="Tcp\Server\APM\TcpSocketServerConfiguration.cs" />
+    <Compile Include="Tcp\Server\APM\EventArgs\TcpClientConnectedEventArgs.cs" />
+    <Compile Include="Tcp\Server\APM\EventArgs\TcpClientDisconnectedEventArgs.cs" />
+    <Compile Include="Tcp\Client\APM\EventArgs\TcpServerDataReceivedEventArgs.cs" />
+    <Compile Include="Tcp\Server\APM\EventArgs\TcpClientDataReceivedEventArgs.cs" />
+    <Compile Include="Tcp\Client\APM\EventArgs\TcpServerConnectedEventArgs.cs" />
+    <Compile Include="Tcp\Client\APM\EventArgs\TcpServerDisconnectedEventArgs.cs" />
+    <Compile Include="Tcp\Client\TAP\IAsyncTcpSocketClientEventDispatcher.cs" />
+    <Compile Include="Tcp\Server\TAP\IAsyncTcpSocketServerEventDispatcher.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tcp\Server\TAP\AsyncTcpSocketSession.cs" />
+    <Compile Include="Tcp\Client\TAP\AsyncTcpSocketClient.cs" />
+    <Compile Include="Tcp\Server\TAP\DefaultAsyncTcpSocketServerEventDispatcher.cs" />
+    <Compile Include="Tcp\Client\TAP\DefaultAsyncTcpSocketClientEventDispatcher.cs" />
+    <Compile Include="Tcp\Server\APM\TcpSocketSession.cs" />
+    <Compile Include="Tcp\Client\APM\TcpSocketClient.cs" />
+    <Compile Include="Tcp\Server\TAP\AsyncTcpSocketServer.cs" />
+    <Compile Include="Tcp\Server\APM\TcpSocketServer.cs" />
+    <Compile Include="Tcp\TcpSocketConnectionState.cs" />
+    <Compile Include="Tcp\TcpSocketException.cs" />
+    <Compile Include="TplExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xzy.EmbeddedApp.Utils\Xzy.EmbeddedApp.Utils.csproj">
+      <Project>{337c6cb5-10e6-4a10-9b56-36c194f98ce9}</Project>
+      <Name>Xzy.EmbeddedApp.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

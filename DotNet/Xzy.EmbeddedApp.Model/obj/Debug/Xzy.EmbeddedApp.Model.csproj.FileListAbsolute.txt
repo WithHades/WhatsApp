@@ -1,0 +1,6 @@
+C:\Users\sa\Desktop\Work087\Work\DotNet\Xzy.EmbeddedApp.Model\bin\Debug\Xzy.EmbeddedApp.Model.dll
+C:\Users\sa\Desktop\Work087\Work\DotNet\Xzy.EmbeddedApp.Model\bin\Debug\Xzy.EmbeddedApp.Model.pdb
+C:\Users\sa\Desktop\Work087\Work\DotNet\Xzy.EmbeddedApp.Model\obj\Debug\Xzy.EmbeddedApp.Model.csprojAssemblyReference.cache
+C:\Users\sa\Desktop\Work087\Work\DotNet\Xzy.EmbeddedApp.Model\obj\Debug\Xzy.EmbeddedApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\sa\Desktop\Work087\Work\DotNet\Xzy.EmbeddedApp.Model\obj\Debug\Xzy.EmbeddedApp.Model.dll
+C:\Users\sa\Desktop\Work087\Work\DotNet\Xzy.EmbeddedApp.Model\obj\Debug\Xzy.EmbeddedApp.Model.pdb

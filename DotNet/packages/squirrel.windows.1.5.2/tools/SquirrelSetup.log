@@ -1,0 +1,1031 @@
+﻿2018-06-16 12:08:58> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.0.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 12:08:58> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 12:08:58> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.0.nupkg
+2018-06-16 12:08:58> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.0.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.0-full.nupkg
+2018-06-16 12:08:58> ReleasePackage: Extracting dependent packages: []
+2018-06-16 12:08:58> ReleasePackage: Removing unnecessary data
+2018-06-16 12:08:58> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 12:08:59> Program: Building embedded zip file for Setup.exe
+2018-06-16 12:12:11> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.0.0.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 12:12:11> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 12:12:11> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.0.0.nupkg
+2018-06-16 12:12:11> Unhandled exception: System.Exception: Your package version is currently 1.0.0.0, which is *not* SemVer-compatible, change this to be a SemVer version number
+   在 Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   在 Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi)
+   在 Squirrel.Update.Program.executeCommandLine(String[] args)
+   在 Squirrel.Update.Program.main(String[] args)
+2018-06-16 12:13:33> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.0.0.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 12:13:33> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 12:13:33> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.0.0.nupkg
+2018-06-16 12:13:33> Unhandled exception: System.Exception: Your package version is currently 1.0.0.0, which is *not* SemVer-compatible, change this to be a SemVer version number
+   在 Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   在 Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi)
+   在 Squirrel.Update.Program.executeCommandLine(String[] args)
+   在 Squirrel.Update.Program.main(String[] args)
+2018-06-16 12:14:33> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.0.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 12:14:33> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 12:14:33> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.0.nupkg
+2018-06-16 12:14:33> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.0.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.0-full.nupkg
+2018-06-16 12:14:33> ReleasePackage: Extracting dependent packages: []
+2018-06-16 12:14:33> ReleasePackage: Removing unnecessary data
+2018-06-16 12:14:33> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 12:14:34> Program: Building embedded zip file for Setup.exe
+2018-06-16 12:14:35> Program: Failed to update Setup.exe with new Zip file: System.Exception: Failed to write Zip to Setup.exe!
+
+Setup: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\Setup.exe, Zip: C:\Users\wuxu\AppData\Local\Temp\tmpF30D.tmp
+Starting to read in Zip file!
+Updating Resource!
+Finished!
+Failed to update resource
+Usage: WriteZipToSetup [Setup.exe template] [Zip File]
+   在 Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi)
+2018-06-16 12:24:15> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.0.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 12:24:15> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 12:24:15> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.0.nupkg
+2018-06-16 12:24:15> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.0.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.0-full.nupkg
+2018-06-16 12:24:15> ReleasePackage: Extracting dependent packages: []
+2018-06-16 12:24:15> ReleasePackage: Removing unnecessary data
+2018-06-16 12:24:15> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 12:24:16> Program: Building embedded zip file for Setup.exe
+2018-06-16 13:22:50> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.1.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 13:22:50> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 13:22:50> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.1.nupkg
+2018-06-16 13:22:50> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.1.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.1-full.nupkg
+2018-06-16 13:22:50> ReleasePackage: Extracting dependent packages: []
+2018-06-16 13:22:50> ReleasePackage: Removing unnecessary data
+2018-06-16 13:22:50> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 13:22:51> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.0-full.nupkg and E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.1-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\Cj.EmbeddedAPP.BLL.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-16 13:22:51> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-16 13:23:01> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-16 13:23:01> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-16 13:23:01> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-16 13:23:01> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-16 13:23:01> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-16 13:23:01> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 13:23:01> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-16 13:23:01> DeltaPackageBuilder: \lib\net461\WpfTreeView.dll hasn't changed, writing dummy file
+2018-06-16 13:23:01> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.dll hasn't changed, writing dummy file
+2018-06-16 13:23:01> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Model.dll hasn't changed, writing dummy file
+2018-06-16 13:23:01> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Utils.dll hasn't changed, writing dummy file
+2018-06-16 13:23:01> DeltaPackageBuilder: \lib\net461\Xzy.Sockets.dll hasn't changed, writing dummy file
+2018-06-16 13:23:01> Program: Building embedded zip file for Setup.exe
+2018-06-16 14:48:12> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.2.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 14:48:12> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 14:48:12> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.2.nupkg
+2018-06-16 14:48:12> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.2.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.2-full.nupkg
+2018-06-16 14:48:12> ReleasePackage: Extracting dependent packages: []
+2018-06-16 14:48:12> ReleasePackage: Removing unnecessary data
+2018-06-16 14:48:12> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 14:48:13> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.1-full.nupkg and E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.2-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\Cj.EmbeddedAPP.BLL.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-16 14:48:13> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-16 14:48:23> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe.config => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe.config
+2018-06-16 14:48:23> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-16 14:48:24> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-16 14:48:24> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-16 14:48:24> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-16 14:48:24> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 14:48:24> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-16 14:48:24> DeltaPackageBuilder: \lib\net461\WpfTreeView.dll hasn't changed, writing dummy file
+2018-06-16 14:48:24> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.dll hasn't changed, writing dummy file
+2018-06-16 14:48:24> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Model.dll hasn't changed, writing dummy file
+2018-06-16 14:48:24> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Utils.dll hasn't changed, writing dummy file
+2018-06-16 14:48:24> DeltaPackageBuilder: \lib\net461\Xzy.Sockets.dll hasn't changed, writing dummy file
+2018-06-16 14:48:24> Program: Building embedded zip file for Setup.exe
+2018-06-16 14:49:58> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.3.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 14:49:58> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 14:49:58> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.3.nupkg
+2018-06-16 14:49:58> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.3.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.3-full.nupkg
+2018-06-16 14:49:59> ReleasePackage: Extracting dependent packages: []
+2018-06-16 14:49:59> ReleasePackage: Removing unnecessary data
+2018-06-16 14:49:59> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 14:50:00> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.2-full.nupkg and E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.3-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\Cj.EmbeddedAPP.BLL.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-16 14:50:00> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-16 14:50:09> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-16 14:50:09> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-16 14:50:10> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-16 14:50:10> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-16 14:50:10> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-16 14:50:10> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 14:50:10> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-16 14:50:10> DeltaPackageBuilder: \lib\net461\WpfTreeView.dll hasn't changed, writing dummy file
+2018-06-16 14:50:10> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.dll hasn't changed, writing dummy file
+2018-06-16 14:50:10> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Model.dll hasn't changed, writing dummy file
+2018-06-16 14:50:10> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Utils.dll hasn't changed, writing dummy file
+2018-06-16 14:50:10> DeltaPackageBuilder: \lib\net461\Xzy.Sockets.dll hasn't changed, writing dummy file
+2018-06-16 14:50:10> Program: Building embedded zip file for Setup.exe
+2018-06-16 14:51:13> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.3.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 14:51:13> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 14:51:13> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.3.nupkg
+2018-06-16 14:51:13> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.3.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.3-full.nupkg
+2018-06-16 14:51:13> ReleasePackage: Extracting dependent packages: []
+2018-06-16 14:51:13> ReleasePackage: Removing unnecessary data
+2018-06-16 14:51:13> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 14:51:14> Program: Building embedded zip file for Setup.exe
+2018-06-16 15:03:49> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.4.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 15:03:49> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 15:03:49> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.4.nupkg
+2018-06-16 15:03:49> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.4.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.4-full.nupkg
+2018-06-16 15:03:49> ReleasePackage: Extracting dependent packages: []
+2018-06-16 15:03:49> ReleasePackage: Removing unnecessary data
+2018-06-16 15:03:49> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 15:03:50> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.3-full.nupkg and E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.4-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\Cj.EmbeddedAPP.BLL.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-16 15:03:50> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-16 15:03:59> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-16 15:03:59> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-16 15:03:59> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-16 15:03:59> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-16 15:03:59> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-16 15:03:59> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 15:03:59> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-16 15:03:59> DeltaPackageBuilder: \lib\net461\WpfTreeView.dll hasn't changed, writing dummy file
+2018-06-16 15:03:59> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.dll hasn't changed, writing dummy file
+2018-06-16 15:03:59> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Model.dll hasn't changed, writing dummy file
+2018-06-16 15:03:59> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Utils.dll hasn't changed, writing dummy file
+2018-06-16 15:03:59> DeltaPackageBuilder: \lib\net461\Xzy.Sockets.dll hasn't changed, writing dummy file
+2018-06-16 15:04:00> Program: Building embedded zip file for Setup.exe
+2018-06-16 15:11:36> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.5.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 15:11:36> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 15:11:36> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.5.nupkg
+2018-06-16 15:11:36> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.5.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.5-full.nupkg
+2018-06-16 15:11:36> ReleasePackage: Extracting dependent packages: []
+2018-06-16 15:11:36> ReleasePackage: Removing unnecessary data
+2018-06-16 15:11:36> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 15:11:37> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.4-full.nupkg and E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.5-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\Cj.EmbeddedAPP.BLL.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-16 15:11:37> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-16 15:11:47> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-16 15:11:47> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-16 15:11:47> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-16 15:11:47> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-16 15:11:47> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-16 15:11:47> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 15:11:47> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-16 15:11:47> DeltaPackageBuilder: \lib\net461\WpfTreeView.dll hasn't changed, writing dummy file
+2018-06-16 15:11:47> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.dll hasn't changed, writing dummy file
+2018-06-16 15:11:47> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Model.dll hasn't changed, writing dummy file
+2018-06-16 15:11:47> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Utils.dll hasn't changed, writing dummy file
+2018-06-16 15:11:47> DeltaPackageBuilder: \lib\net461\Xzy.Sockets.dll hasn't changed, writing dummy file
+2018-06-16 15:11:47> Program: Building embedded zip file for Setup.exe
+2018-06-16 15:12:54> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.5.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 15:12:54> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 15:12:54> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.5.nupkg
+2018-06-16 15:12:54> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.5.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.5-full.nupkg
+2018-06-16 15:12:54> ReleasePackage: Extracting dependent packages: []
+2018-06-16 15:12:54> ReleasePackage: Removing unnecessary data
+2018-06-16 15:12:54> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 15:12:55> Program: Building embedded zip file for Setup.exe
+2018-06-16 15:14:03> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.6.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 15:14:03> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 15:14:03> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.6.nupkg
+2018-06-16 15:14:03> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.6.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.6-full.nupkg
+2018-06-16 15:14:03> ReleasePackage: Extracting dependent packages: []
+2018-06-16 15:14:03> ReleasePackage: Removing unnecessary data
+2018-06-16 15:14:03> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 15:14:04> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.5-full.nupkg and E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.6-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-16 15:14:04> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-16 15:14:04> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll hasn't changed, writing dummy file
+2018-06-16 15:14:04> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-16 15:14:04> DeltaPackageBuilder: \lib\net461\Cj.EmbeddedAPP.BLL.dll hasn't changed, writing dummy file
+2018-06-16 15:14:04> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-16 15:14:04> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-16 15:14:04> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-16 15:14:04> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-16 15:14:04> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-16 15:14:04> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-16 15:14:05> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-16 15:14:05> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-16 15:14:05> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-16 15:14:05> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-16 15:14:05> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-16 15:14:05> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-16 15:14:05> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 15:14:05> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-16 15:14:05> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-16 15:14:14> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-16 15:14:14> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-16 15:14:15> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-16 15:14:15> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-16 15:14:15> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-16 15:14:15> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 15:14:15> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-16 15:14:15> DeltaPackageBuilder: \lib\net461\WpfTreeView.dll hasn't changed, writing dummy file
+2018-06-16 15:14:15> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.dll hasn't changed, writing dummy file
+2018-06-16 15:14:15> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Model.dll hasn't changed, writing dummy file
+2018-06-16 15:14:15> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Utils.dll hasn't changed, writing dummy file
+2018-06-16 15:14:15> DeltaPackageBuilder: \lib\net461\Xzy.Sockets.dll hasn't changed, writing dummy file
+2018-06-16 15:14:15> Program: Building embedded zip file for Setup.exe
+2018-06-16 15:46:16> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.7.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 15:46:16> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 15:46:16> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.7.nupkg
+2018-06-16 15:46:16> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.7.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.7-full.nupkg
+2018-06-16 15:46:16> ReleasePackage: Extracting dependent packages: []
+2018-06-16 15:46:16> ReleasePackage: Removing unnecessary data
+2018-06-16 15:46:16> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 15:46:17> Program: Building embedded zip file for Setup.exe
+2018-06-16 15:51:59> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.8.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 15:51:59> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 15:51:59> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.8.nupkg
+2018-06-16 15:51:59> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.8.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.8-full.nupkg
+2018-06-16 15:51:59> ReleasePackage: Extracting dependent packages: []
+2018-06-16 15:51:59> ReleasePackage: Removing unnecessary data
+2018-06-16 15:51:59> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 15:52:00> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.7-full.nupkg and E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.8-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Cj.EmbeddedAPP.BLL.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\qunkong360.exe hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\qunkong360_ExecutionStub.exe hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\WpfTreeView.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Model.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Utils.dll hasn't changed, writing dummy file
+2018-06-16 15:52:00> DeltaPackageBuilder: \lib\net461\Xzy.Sockets.dll hasn't changed, writing dummy file
+2018-06-16 15:52:01> Program: Building embedded zip file for Setup.exe
+2018-06-16 16:59:46> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.9.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 16:59:46> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 16:59:46> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.9.nupkg
+2018-06-16 16:59:46> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.9.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.9-full.nupkg
+2018-06-16 16:59:46> ReleasePackage: Extracting dependent packages: []
+2018-06-16 16:59:46> ReleasePackage: Removing unnecessary data
+2018-06-16 16:59:46> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 16:59:47> Program: Building embedded zip file for Setup.exe
+2018-06-16 17:09:37> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.10.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 17:09:37> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 17:09:37> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.10.nupkg
+2018-06-16 17:09:37> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.10.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.10-full.nupkg
+2018-06-16 17:09:37> ReleasePackage: Extracting dependent packages: []
+2018-06-16 17:09:37> ReleasePackage: Removing unnecessary data
+2018-06-16 17:09:37> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 17:09:38> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.9-full.nupkg and E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.10-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\Cj.EmbeddedAPP.BLL.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-16 17:09:38> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-16 17:09:48> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-16 17:09:48> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-16 17:09:48> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-16 17:09:48> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-16 17:09:48> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-16 17:09:48> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 17:09:48> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-16 17:09:48> DeltaPackageBuilder: \lib\net461\WpfTreeView.dll hasn't changed, writing dummy file
+2018-06-16 17:09:48> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.dll hasn't changed, writing dummy file
+2018-06-16 17:09:48> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Model.dll hasn't changed, writing dummy file
+2018-06-16 17:09:48> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Utils.dll hasn't changed, writing dummy file
+2018-06-16 17:09:48> DeltaPackageBuilder: \lib\net461\Xzy.Sockets.dll hasn't changed, writing dummy file
+2018-06-16 17:09:49> Program: Building embedded zip file for Setup.exe
+2018-06-16 17:20:56> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.11.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 17:20:56> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 17:20:56> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.11.nupkg
+2018-06-16 17:20:57> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.11.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.11-full.nupkg
+2018-06-16 17:20:57> ReleasePackage: Extracting dependent packages: []
+2018-06-16 17:20:57> ReleasePackage: Removing unnecessary data
+2018-06-16 17:20:57> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 17:20:58> Program: Building embedded zip file for Setup.exe
+2018-06-16 17:26:21> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.12.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 17:26:21> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 17:26:21> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.12.nupkg
+2018-06-16 17:26:21> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.12.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.12-full.nupkg
+2018-06-16 17:26:21> ReleasePackage: Extracting dependent packages: []
+2018-06-16 17:26:21> ReleasePackage: Removing unnecessary data
+2018-06-16 17:26:21> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 17:26:22> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.11-full.nupkg and E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.12-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.AppEmbeddedApp.DAL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.AppEmbeddedApp.DAL.dll
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.EmbeddedAPP.BLL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.EmbeddedAPP.BLL.dll
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\Microsoft.Expression.Interactions.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-16 17:26:22> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-16 17:26:33> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-16 17:26:33> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-16 17:26:33> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-16 17:26:33> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-16 17:26:33> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-16 17:26:33> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 17:26:33> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-16 17:26:33> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-06-16 17:26:33> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\WpfTreeView.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\WpfTreeView.dll
+2018-06-16 17:26:33> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.dll
+2018-06-16 17:26:33> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Model.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Model.dll
+2018-06-16 17:26:33> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Utils.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Utils.dll
+2018-06-16 17:26:33> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.Sockets.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.Sockets.dll
+2018-06-16 17:26:33> Program: Building embedded zip file for Setup.exe
+2018-06-16 17:42:48> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.12.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 17:42:48> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 17:42:48> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.12.nupkg
+2018-06-16 17:42:48> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.12.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.12-full.nupkg
+2018-06-16 17:42:48> ReleasePackage: Extracting dependent packages: []
+2018-06-16 17:42:48> ReleasePackage: Removing unnecessary data
+2018-06-16 17:42:48> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 17:42:49> Program: Building embedded zip file for Setup.exe
+2018-06-16 17:46:05> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.13.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 17:46:05> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 17:46:05> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.13.nupkg
+2018-06-16 17:46:05> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.13.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.13-full.nupkg
+2018-06-16 17:46:05> ReleasePackage: Extracting dependent packages: []
+2018-06-16 17:46:05> ReleasePackage: Removing unnecessary data
+2018-06-16 17:46:05> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 17:46:06> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.12-full.nupkg and E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.13-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.AppEmbeddedApp.DAL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.AppEmbeddedApp.DAL.dll
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.EmbeddedAPP.BLL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.EmbeddedAPP.BLL.dll
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\Microsoft.Expression.Interactions.dll hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-16 17:46:06> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-16 17:46:07> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-16 17:46:07> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 17:46:07> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-06-16 17:46:07> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-16 17:46:07> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-16 17:46:17> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-16 17:46:17> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-16 17:46:17> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-16 17:46:17> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-16 17:46:17> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-16 17:46:17> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 17:46:17> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-16 17:46:17> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-06-16 17:46:17> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\WpfTreeView.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\WpfTreeView.dll
+2018-06-16 17:46:17> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.dll
+2018-06-16 17:46:17> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Model.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Model.dll
+2018-06-16 17:46:17> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Utils.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Utils.dll
+2018-06-16 17:46:17> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.Sockets.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.Sockets.dll
+2018-06-16 17:46:17> Program: Building embedded zip file for Setup.exe
+2018-06-16 17:50:38> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.13.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 17:50:38> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 17:50:38> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.13.nupkg
+2018-06-16 17:50:38> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.13.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.13-full.nupkg
+2018-06-16 17:50:38> ReleasePackage: Extracting dependent packages: []
+2018-06-16 17:50:38> ReleasePackage: Removing unnecessary data
+2018-06-16 17:50:38> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 17:50:39> Program: Building embedded zip file for Setup.exe
+2018-06-16 18:25:30> Program: Starting Squirrel Updater: --releasify=E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.14.nupkg --setupIcon=E:\kangantu\projects\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-16 18:25:30> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-16 18:25:30> Program: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.14.nupkg
+2018-06-16 18:25:30> ReleasePackage: Creating release package: E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.14.nupkg => E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.14-full.nupkg
+2018-06-16 18:25:30> ReleasePackage: Extracting dependent packages: []
+2018-06-16 18:25:30> ReleasePackage: Removing unnecessary data
+2018-06-16 18:25:30> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-16 18:25:31> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.13-full.nupkg and E:\kangantu\projects\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.14-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.AppEmbeddedApp.DAL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.AppEmbeddedApp.DAL.dll
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.EmbeddedAPP.BLL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.EmbeddedAPP.BLL.dll
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\Microsoft.Expression.Interactions.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-16 18:25:32> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-16 18:25:42> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-16 18:25:42> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-16 18:25:42> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-16 18:25:42> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-16 18:25:42> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-16 18:25:42> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-16 18:25:42> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-16 18:25:42> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-06-16 18:25:42> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\WpfTreeView.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\WpfTreeView.dll
+2018-06-16 18:25:42> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.dll
+2018-06-16 18:25:42> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Model.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Model.dll
+2018-06-16 18:25:42> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Utils.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Utils.dll
+2018-06-16 18:25:42> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.Sockets.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.Sockets.dll
+2018-06-16 18:25:43> Program: Building embedded zip file for Setup.exe
+2018-06-20 14:39:14> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.17.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-20 14:39:14> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-20 14:39:14> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.17.nupkg
+2018-06-20 14:39:14> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.17.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.17-full.nupkg
+2018-06-20 14:39:15> ReleasePackage: Extracting dependent packages: []
+2018-06-20 14:39:15> ReleasePackage: Removing unnecessary data
+2018-06-20 14:39:15> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-20 14:39:16> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.16-full.nupkg and E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.17-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-20 14:39:17> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-20 14:39:17> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.AppEmbeddedApp.DAL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.AppEmbeddedApp.DAL.dll
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.EmbeddedAPP.BLL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.EmbeddedAPP.BLL.dll
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\Microsoft.Expression.Interactions.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-20 14:39:18> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-20 14:39:28> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe.config => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe.config
+2018-06-20 14:39:28> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-20 14:39:28> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-20 14:39:28> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-20 14:39:28> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-20 14:39:28> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-20 14:39:28> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-20 14:39:28> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-06-20 14:39:28> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\WpfTreeView.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\WpfTreeView.dll
+2018-06-20 14:39:28> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.dll
+2018-06-20 14:39:28> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Model.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Model.dll
+2018-06-20 14:39:28> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Utils.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Utils.dll
+2018-06-20 14:39:28> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.Sockets.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.Sockets.dll
+2018-06-20 14:39:29> Program: Building embedded zip file for Setup.exe
+2018-06-20 14:51:41> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.18.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-20 14:51:41> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-20 14:51:41> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.18.nupkg
+2018-06-20 14:51:41> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.18.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.18-full.nupkg
+2018-06-20 14:51:42> ReleasePackage: Extracting dependent packages: []
+2018-06-20 14:51:42> ReleasePackage: Removing unnecessary data
+2018-06-20 14:51:42> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-20 14:51:43> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.17-full.nupkg and E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.18-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Cj.EmbeddedAPP.BLL.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Microsoft.Expression.Interactions.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-20 14:51:46> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-20 14:51:56> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\WpfTreeView.dll hasn't changed, writing dummy file
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.dll hasn't changed, writing dummy file
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Model.dll hasn't changed, writing dummy file
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Utils.dll hasn't changed, writing dummy file
+2018-06-20 14:51:56> DeltaPackageBuilder: \lib\net461\Xzy.Sockets.dll hasn't changed, writing dummy file
+2018-06-20 14:51:57> Program: Building embedded zip file for Setup.exe
+2018-06-20 15:30:37> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.19.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-20 15:30:37> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-20 15:30:37> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.19.nupkg
+2018-06-20 15:30:37> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.19.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.19-full.nupkg
+2018-06-20 15:30:38> ReleasePackage: Extracting dependent packages: []
+2018-06-20 15:30:38> ReleasePackage: Removing unnecessary data
+2018-06-20 15:30:38> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-20 15:30:39> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.18-full.nupkg and E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.19-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Cj.EmbeddedAPP.BLL.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Microsoft.Expression.Interactions.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-20 15:30:40> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-20 15:30:51> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\WpfTreeView.dll hasn't changed, writing dummy file
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.dll hasn't changed, writing dummy file
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Model.dll hasn't changed, writing dummy file
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Utils.dll hasn't changed, writing dummy file
+2018-06-20 15:30:51> DeltaPackageBuilder: \lib\net461\Xzy.Sockets.dll hasn't changed, writing dummy file
+2018-06-20 15:30:51> Program: Building embedded zip file for Setup.exe
+2018-06-25 16:58:02> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.20.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-25 16:58:02> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-25 16:58:02> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.20.nupkg
+2018-06-25 16:58:02> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.20.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.20-full.nupkg
+2018-06-25 16:58:02> ReleasePackage: Extracting dependent packages: []
+2018-06-25 16:58:02> ReleasePackage: Removing unnecessary data
+2018-06-25 16:58:02> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-25 16:58:03> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.19-full.nupkg and E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.20-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Cj.EmbeddedAPP.BLL.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Microsoft.Expression.Interactions.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-25 16:58:04> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-25 16:58:13> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\WpfTreeView.dll hasn't changed, writing dummy file
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.dll hasn't changed, writing dummy file
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Model.dll hasn't changed, writing dummy file
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\Xzy.EmbeddedApp.Utils.dll hasn't changed, writing dummy file
+2018-06-25 16:58:13> DeltaPackageBuilder: \lib\net461\Xzy.Sockets.dll hasn't changed, writing dummy file
+2018-06-25 16:58:13> Program: Building embedded zip file for Setup.exe
+2018-06-28 15:14:15> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.21.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-28 15:14:15> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-28 15:14:15> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.21.nupkg
+2018-06-28 15:14:15> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.21.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.21-full.nupkg
+2018-06-28 15:14:16> ReleasePackage: Extracting dependent packages: []
+2018-06-28 15:14:16> ReleasePackage: Removing unnecessary data
+2018-06-28 15:14:16> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-28 15:14:17> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.20-full.nupkg and E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.21-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.AppEmbeddedApp.DAL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.AppEmbeddedApp.DAL.dll
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.EmbeddedAPP.BLL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.EmbeddedAPP.BLL.dll
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\Microsoft.Expression.Interactions.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-28 15:14:19> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-28 15:14:29> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe.config => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe.config
+2018-06-28 15:14:29> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-28 15:14:30> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-28 15:14:30> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-28 15:14:30> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-28 15:14:30> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-28 15:14:30> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-28 15:14:30> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-06-28 15:14:30> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\WpfTreeView.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\WpfTreeView.dll
+2018-06-28 15:14:30> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.dll
+2018-06-28 15:14:30> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Model.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Model.dll
+2018-06-28 15:14:30> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Utils.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Utils.dll
+2018-06-28 15:14:30> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.Sockets.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.Sockets.dll
+2018-06-28 15:14:30> DeltaPackageBuilder: \lib\net461\ch-zn\qunkong360.resources.dll not found in base package, marking as new
+2018-06-28 15:14:30> DeltaPackageBuilder: \lib\net461\en-us\qunkong360.resources.dll not found in base package, marking as new
+2018-06-28 15:14:30> Program: Building embedded zip file for Setup.exe
+2018-06-29 14:43:33> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\群控360.1.0.22.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Xzy.EmbeddedApp.WinForm\qunkong360.ico --no-msi
+2018-06-29 14:43:33> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-06-29 14:43:33> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.22.nupkg
+2018-06-29 14:43:33> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.22.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.22-full.nupkg
+2018-06-29 14:43:34> ReleasePackage: Extracting dependent packages: []
+2018-06-29 14:43:34> ReleasePackage: Removing unnecessary data
+2018-06-29 14:43:34> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-06-29 14:43:35> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.21-full.nupkg and E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.22-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\AppContainer.bmp hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.AppEmbeddedApp.DAL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.AppEmbeddedApp.DAL.dll
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.EmbeddedAPP.BLL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.EmbeddedAPP.BLL.dll
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\Microsoft.Expression.Interactions.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-06-29 14:43:37> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-06-29 14:43:47> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-06-29 14:43:47> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-06-29 14:43:48> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-06-29 14:43:48> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-06-29 14:43:48> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-06-29 14:43:48> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-06-29 14:43:48> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-06-29 14:43:48> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-06-29 14:43:48> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\WpfTreeView.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\WpfTreeView.dll
+2018-06-29 14:43:48> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.dll
+2018-06-29 14:43:48> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Model.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Model.dll
+2018-06-29 14:43:48> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Utils.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Utils.dll
+2018-06-29 14:43:48> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.Sockets.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.Sockets.dll
+2018-06-29 14:43:48> DeltaPackageBuilder: \lib\net461\ch-zn\qunkong360.resources.dll hasn't changed, writing dummy file
+2018-06-29 14:43:48> DeltaPackageBuilder: \lib\net461\en-us\qunkong360.resources.dll hasn't changed, writing dummy file
+2018-06-29 14:43:48> Program: Building embedded zip file for Setup.exe
+2018-07-06 11:46:45> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\wpf\群控360.1.0.0.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-06 11:46:45> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-06 11:46:45> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.0.nupkg
+2018-07-06 11:46:45> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.0.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.0-full.nupkg
+2018-07-06 11:46:46> ReleasePackage: Extracting dependent packages: []
+2018-07-06 11:46:46> ReleasePackage: Removing unnecessary data
+2018-07-06 11:46:46> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-07-06 11:46:48> Program: Building embedded zip file for Setup.exe
+2018-07-06 14:22:41> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\wpf\群控360.1.0.1.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-06 14:22:41> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-06 14:22:41> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.1.nupkg
+2018-07-06 14:22:41> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.1.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.1-full.nupkg
+2018-07-06 14:22:42> ReleasePackage: Extracting dependent packages: []
+2018-07-06 14:22:42> ReleasePackage: Removing unnecessary data
+2018-07-06 14:22:42> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-07-06 14:22:44> Program: Building embedded zip file for Setup.exe
+2018-07-06 16:05:29> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\wpf\群控360.1.0.2.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-06 16:05:29> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-06 16:05:29> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.2.nupkg
+2018-07-06 16:05:29> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.2.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.2-full.nupkg
+2018-07-06 16:05:30> ReleasePackage: Extracting dependent packages: []
+2018-07-06 16:05:30> ReleasePackage: Removing unnecessary data
+2018-07-06 16:05:30> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-07-06 16:05:32> Program: Building embedded zip file for Setup.exe
+2018-07-06 17:05:11> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\wpf\群控360.1.0.3.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-06 17:05:11> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-06 17:05:11> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.3.nupkg
+2018-07-06 17:05:11> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.3.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.3-full.nupkg
+2018-07-06 17:05:12> ReleasePackage: Extracting dependent packages: []
+2018-07-06 17:05:12> ReleasePackage: Removing unnecessary data
+2018-07-06 17:05:12> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-07-06 17:05:14> Program: Building embedded zip file for Setup.exe
+2018-07-09 16:39:01> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\wpf\群控360.1.0.4.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-09 16:39:01> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-09 16:39:01> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.4.nupkg
+2018-07-09 16:39:01> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.4.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.4-full.nupkg
+2018-07-09 16:39:02> ReleasePackage: Extracting dependent packages: []
+2018-07-09 16:39:02> ReleasePackage: Removing unnecessary data
+2018-07-09 16:39:02> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-07-09 16:39:04> Program: Building embedded zip file for Setup.exe
+2018-07-09 16:42:24> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\wpf\群控360.1.0.5.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-09 16:42:24> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-09 16:42:24> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.5.nupkg
+2018-07-09 16:42:24> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.5.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.5-full.nupkg
+2018-07-09 16:42:25> ReleasePackage: Extracting dependent packages: []
+2018-07-09 16:42:25> ReleasePackage: Removing unnecessary data
+2018-07-09 16:42:25> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-07-09 16:42:27> Program: Building embedded zip file for Setup.exe
+2018-07-10 17:18:39> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\wpf\群控360.1.0.6.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-10 17:18:39> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-10 17:18:39> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.6.nupkg
+2018-07-10 17:18:39> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.6.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.6-full.nupkg
+2018-07-10 17:18:40> ReleasePackage: Extracting dependent packages: []
+2018-07-10 17:18:40> ReleasePackage: Removing unnecessary data
+2018-07-10 17:18:40> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-07-10 17:18:42> Program: Building embedded zip file for Setup.exe
+2018-07-11 09:54:24> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\wpf\群控360.1.0.7.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-11 09:54:24> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-11 09:54:24> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.7.nupkg
+2018-07-11 09:54:24> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.7.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.7-full.nupkg
+2018-07-11 09:54:26> ReleasePackage: Extracting dependent packages: []
+2018-07-11 09:54:26> ReleasePackage: Removing unnecessary data
+2018-07-11 09:54:26> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-07-11 09:54:33> Program: Building embedded zip file for Setup.exe
+2018-07-15 11:07:31> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\wpf\群控360.1.0.8.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-15 11:07:31> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-15 11:07:31> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.8.nupkg
+2018-07-15 11:07:31> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.8.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.8-full.nupkg
+2018-07-15 11:07:32> ReleasePackage: Extracting dependent packages: []
+2018-07-15 11:07:32> ReleasePackage: Removing unnecessary data
+2018-07-15 11:07:33> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-07-15 11:07:40> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.7-full.nupkg and E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.8-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-07-15 11:07:43> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.AppEmbeddedApp.DAL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.AppEmbeddedApp.DAL.dll
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.EmbeddedAPP.BLL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.EmbeddedAPP.BLL.dll
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\ControlzEx.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\MahApps.Metro.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\MaterialDesignColors.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\MaterialDesignThemes.Wpf.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-07-15 11:07:43> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-07-15 11:07:44> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-07-15 11:07:44> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-07-15 11:07:44> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-07-15 11:07:44> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-07-15 11:07:44> DeltaPackageBuilder: \lib\net461\SharpCompress.dll hasn't changed, writing dummy file
+2018-07-15 11:07:44> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-07-15 11:07:44> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-07-15 11:07:44> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-07-15 11:07:44> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-07-15 11:07:44> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\WpfTreeView.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\WpfTreeView.dll
+2018-07-15 11:07:44> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Model.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Model.dll
+2018-07-15 11:07:44> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Utils.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Utils.dll
+2018-07-15 11:07:44> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.Sockets.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.Sockets.dll
+2018-07-15 11:07:44> DeltaPackageBuilder: \lib\net461\AppDatas\WhatsApp.apk hasn't changed, writing dummy file
+2018-07-15 11:07:44> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\en-us\qunkong360.resources.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\en-us\qunkong360.resources.dll
+2018-07-15 11:07:44> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\zh-cn\qunkong360.resources.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\zh-cn\qunkong360.resources.dll
+2018-07-15 11:07:45> Program: Building embedded zip file for Setup.exe
+2018-07-18 17:26:19> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\wpf\群控360.1.0.9.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-18 17:26:19> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-18 17:26:19> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.9.nupkg
+2018-07-18 17:26:20> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.9.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.9-full.nupkg
+2018-07-18 17:26:21> ReleasePackage: Extracting dependent packages: []
+2018-07-18 17:26:21> ReleasePackage: Removing unnecessary data
+2018-07-18 17:26:21> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-07-18 17:26:29> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.8-full.nupkg and E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.9-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-07-18 17:26:32> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.AppEmbeddedApp.DAL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.AppEmbeddedApp.DAL.dll
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.EmbeddedAPP.BLL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.EmbeddedAPP.BLL.dll
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\ControlzEx.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\MahApps.Metro.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\MaterialDesignColors.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\MaterialDesignThemes.Wpf.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-07-18 17:26:32> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-07-18 17:26:32> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-07-18 17:26:33> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-07-18 17:26:33> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-07-18 17:26:33> DeltaPackageBuilder: \lib\net461\SharpCompress.dll hasn't changed, writing dummy file
+2018-07-18 17:26:33> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-07-18 17:26:33> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-07-18 17:26:33> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-07-18 17:26:33> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-07-18 17:26:33> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\WpfTreeView.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\WpfTreeView.dll
+2018-07-18 17:26:33> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Model.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Model.dll
+2018-07-18 17:26:33> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Utils.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Utils.dll
+2018-07-18 17:26:33> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.Sockets.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.Sockets.dll
+2018-07-18 17:26:33> DeltaPackageBuilder: \lib\net461\AppDatas\WhatsApp.apk hasn't changed, writing dummy file
+2018-07-18 17:26:33> DeltaPackageBuilder: \lib\net461\en-us\qunkong360.resources.dll hasn't changed, writing dummy file
+2018-07-18 17:26:33> DeltaPackageBuilder: \lib\net461\zh-cn\qunkong360.resources.dll hasn't changed, writing dummy file
+2018-07-18 17:26:34> Program: Building embedded zip file for Setup.exe
+2018-07-20 15:10:38> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.10-full.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-20 15:10:38> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-20 15:10:38> Unhandled exception: System.IO.FileNotFoundException: 未能找到文件“E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.10-full.nupkg”。
+文件名:“E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.10-full.nupkg”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   在 System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   在 Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi)
+   在 Squirrel.Update.Program.executeCommandLine(String[] args)
+   在 Squirrel.Update.Program.main(String[] args)
+2018-07-20 15:13:02> Program: Starting Squirrel Updater: --releasify=E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\nupkg\wpf\群控360.1.0.10.nupkg --setupIcon=E:\workspace\WhatApps\DotNet\Wx.Qunkong360.Wpf\qunkong360.ico --no-msi
+2018-07-20 15:13:02> Program: Bootstrapper EXE found at:.\Setup.exe
+2018-07-20 15:13:02> Program: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.10.nupkg
+2018-07-20 15:13:02> ReleasePackage: Creating release package: E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360.1.0.10.nupkg => E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.10-full.nupkg
+2018-07-20 15:13:04> ReleasePackage: Extracting dependent packages: []
+2018-07-20 15:13:04> ReleasePackage: Removing unnecessary data
+2018-07-20 15:13:04> ReleasePackage: No release notes found in C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\群控360.nuspec
+2018-07-20 15:13:11> DeltaPackageBuilder: Extracting .\Releases\群控360-1.0.9-full.nupkg and E:\workspace\WhatApps\DotNet\packages\squirrel.windows.1.5.2\tools\Releases\群控360-1.0.10-full.nupkg into C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb
+2018-07-20 15:13:15> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.AppEmbeddedApp.DAL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.AppEmbeddedApp.DAL.dll
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Cj.AppEmbeddedApp.DAL.dll.config hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Cj.EmbeddedAPP.BLL.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Cj.EmbeddedAPP.BLL.dll
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\ControlzEx.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Google.Protobuf.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Logrila.Logging.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\MahApps.Metro.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\MaterialDesignColors.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\MaterialDesignThemes.Wpf.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Mono.Cecil.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\MySql.Data.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Prism.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\protobuf-net.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360.exe
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\qunkong360.exe.config hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\qunkong360_ExecutionStub.exe => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\qunkong360_ExecutionStub.exe
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Serilog.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Serilog.Sinks.File.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\SharpCompress.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Splat.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\Squirrel.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\System.ValueTuple.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: \lib\net461\System.Windows.Interactivity.dll hasn't changed, writing dummy file
+2018-07-20 15:13:15> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\WpfTreeView.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\WpfTreeView.dll
+2018-07-20 15:13:16> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Model.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Model.dll
+2018-07-20 15:13:16> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.EmbeddedApp.Utils.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.EmbeddedApp.Utils.dll
+2018-07-20 15:13:16> DeltaPackageBuilder: Delta patching C:\Users\wuxu\AppData\Local\SquirrelTemp\tempa\lib\net461\Xzy.Sockets.dll => C:\Users\wuxu\AppData\Local\SquirrelTemp\tempb\lib\net461\Xzy.Sockets.dll
+2018-07-20 15:13:16> DeltaPackageBuilder: \lib\net461\AppDatas\WhatsApp.apk hasn't changed, writing dummy file
+2018-07-20 15:13:16> DeltaPackageBuilder: \lib\net461\en-us\qunkong360.resources.dll hasn't changed, writing dummy file
+2018-07-20 15:13:16> DeltaPackageBuilder: \lib\net461\zh-cn\qunkong360.resources.dll hasn't changed, writing dummy file
+2018-07-20 15:13:16> Program: Building embedded zip file for Setup.exe

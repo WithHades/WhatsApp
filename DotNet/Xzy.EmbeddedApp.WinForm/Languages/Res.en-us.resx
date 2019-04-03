@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Authorization_Status" xml:space="preserve">
+    <value>Authorization status</value>
+  </data>
+  <data name="Authorized_Number" xml:space="preserve">
+    <value>Authorized {0} phones</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Close_Group_Control" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Close_WhatsApp" xml:space="preserve">
+    <value>Close WhatsApp</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Enter_Phone_Number" xml:space="preserve">
+    <value>Enter phone numbers(one phone number per line)</value>
+  </data>
+  <data name="Error_Main_Window_Handle_Timeout" xml:space="preserve">
+    <value>Get main window handle timeout!</value>
+  </data>
+  <data name="Error_No_Vm_Process" xml:space="preserve">
+    <value>Can't find recently launched host process！</value>
+  </data>
+  <data name="Error_Please_Launch_A_Vm" xml:space="preserve">
+    <value>Please launch a group of hosts first!</value>
+  </data>
+  <data name="Error_Vm_Path_Not_Exist" xml:space="preserve">
+    <value>Host launching path not exist!</value>
+  </data>
+  <data name="Error_Vm_Path_Not_Set" xml:space="preserve">
+    <value>Host launching path not set!</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group {0}  {1}</value>
+  </data>
+  <data name="Group_Capacity" xml:space="preserve">
+    <value>Each group displays phone quantity</value>
+  </data>
+  <data name="Group_Messages" xml:space="preserve">
+    <value>Group messages</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Import_Address_List" xml:space="preserve">
+    <value>Import address list</value>
+  </data>
+  <data name="Install_APK" xml:space="preserve">
+    <value>Install APK</value>
+  </data>
+  <data name="Launch" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="Launch_Group_Control" xml:space="preserve">
+    <value>Launch group control</value>
+  </data>
+  <data name="Launch_WhatsApp" xml:space="preserve">
+    <value>Launch WhatsApp</value>
+  </data>
+  <data name="New_Group" xml:space="preserve">
+    <value>New Group</value>
+  </data>
+  <data name="Phone_Num" xml:space="preserve">
+    <value>Phone {0}</value>
+  </data>
+  <data name="Post_Moments" xml:space="preserve">
+    <value>Post moments</value>
+  </data>
+  <data name="Product_Name" xml:space="preserve">
+    <value>WhatsApp Group Control System</value>
+  </data>
+  <data name="Row_Capacity" xml:space="preserve">
+    <value>Each row displays phone quantity</value>
+  </data>
+  <data name="Save_Parameters" xml:space="preserve">
+    <value>Save parameters</value>
+  </data>
+  <data name="Save_Success" xml:space="preserve">
+    <value>Save Successfully</value>
+  </data>
+  <data name="Select_All" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="Select_Path" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Select_Phone_File" xml:space="preserve">
+    <value>Select phone file</value>
+  </data>
+  <data name="Select_Vm" xml:space="preserve">
+    <value>Select phones</value>
+  </data>
+  <data name="Send_Socket" xml:space="preserve">
+    <value>Send socket</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="System_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Task_Management" xml:space="preserve">
+    <value>Task Management</value>
+  </data>
+  <data name="Text_File" xml:space="preserve">
+    <value>Text files|*.txt</value>
+  </data>
+  <data name="Turn_Off_All_Phones" xml:space="preserve">
+    <value>Turn off all phones</value>
+  </data>
+  <data name="WhatsApp_Operation" xml:space="preserve">
+    <value>WhatsApp Operation</value>
+  </data>
+</root>

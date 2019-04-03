@@ -1,0 +1,502 @@
+﻿<metro:MetroWindow x:Class="Wx.Qunkong360.Wpf.AppOptView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wx.Qunkong360.Wpf"
+        xmlns:wpftreeview="clr-namespace:WpfTreeView;assembly=WpfTreeView"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+                   xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:winform="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        mc:Ignorable="d"
+        Title="AppOptView" Height="768" Width="1024" FontSize="16" WindowStartupLocation="CenterScreen">
+
+    <metro:MetroWindow.Resources>
+        <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignRaisedButton}">
+            <Setter Property="FontSize" Value="16"></Setter>
+        </Style>
+        <!--<Style TargetType="{x:Type wpftreeview:WpfTreeView}">
+            <Setter Property="FontSize" Value="16"></Setter>
+        </Style>-->
+    </metro:MetroWindow.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://application:,,,/qunkong360;component/Images/background.png" TileMode="Tile"  ViewportUnits="Absolute" Stretch="None" Viewport="0,0,300,150" Opacity="0.5">
+                <ImageBrush.Transform>
+                    <RotateTransform Angle="-30"></RotateTransform>
+                </ImageBrush.Transform>
+            </ImageBrush>
+        </Grid.Background>
+        <TabControl  Grid.ColumnSpan="3" Margin="10">
+            <TabItem x:Name="tabScanning" Loaded="tabScanning_Loaded">
+                <TabItem.Header>
+                    <Label x:Name="lblScanning" Content="扫号" MouseLeftButtonDown="lblScanning_MouseLeftButtonDown"></Label>
+                </TabItem.Header>
+
+                <Grid x:Name="gridScanning">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"></ColumnDefinition>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel  Orientation="Horizontal" Margin="5">
+                        <Label x:Name="lblTableBegin" Content="表始" Foreground="Black"  FontWeight="Black"  FontSize="15" Margin="0,0,0,637" Width="89" RenderTransformOrigin="1.723,0.597"/>
+                        <Label x:Name="lblInternationalNum" Content="国际号码" Foreground="Black"  FontWeight="Black" Width="96" FontSize="15" Margin="-89,50,0,587" RenderTransformOrigin="-0.043,0.009"/>
+                        <StackPanel Orientation="Vertical" Width="130"  Margin="20,0,0,400">
+                            <TextBox  x:Name="txtTableBegin" BorderThickness="0" FontSize="18" Height="28" Foreground="Green" Margin="0,0,0.4,0" />
+                            <Border BorderBrush="Black" BorderThickness="1"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical"  Width="130" Margin="-130,50,0,563.6" >
+                            <TextBox x:Name="txtInternationalNum" BorderThickness="0" FontSize="18" Foreground="Green" Height="28" Margin="0,0,-0.6,0" />
+                            <Border BorderBrush="Black" BorderThickness="1"/>
+                        </StackPanel>
+                        <StackPanel>
+                            <Button x:Name="btnGenerate"  Margin="-378,100,0,0" Foreground="White" Click="btnGenerate_Click" Width="101" Height="30" RenderTransformOrigin="0.503,0.5"></Button>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical"  Width="130" Margin="-130,99,0,532.6" >
+                            <TextBox x:Name="txtGenerate" BorderThickness="0" FontSize="18" Foreground="Green" Height="27" Margin="0,0,-0.4,0" />
+                            <Border BorderBrush="Black" BorderThickness="1"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <Grid Grid.ColumnSpan="2" Margin="272,35,10,10">
+                        <TextBox x:Name="tbNumber"  Background="White" Margin="0,0,10,10"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem x:Name="tabImportContact" Loaded="tabImportContact_Loaded">
+                <TabItem.Header>
+                    <Label x:Name="lblImportContact" Content="通讯录导入" MouseLeftButtonDown="lblImportContact_MouseLeftButtonDown"></Label>
+                </TabItem.Header>
+                <Grid x:Name="gridImport">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <wpftreeview:WpfTreeView x:Name="wpfTreeview1"/>
+
+                    <StackPanel Grid.Column="1">
+                        <StackPanel Margin="10">
+                            <TextBlock x:Name="tbEnterPhoneNumsTips"></TextBlock>
+                            <RichTextBox x:Name="rtbPhoneNums" Height="300">
+                                <RichTextBox.Document>
+                                    <FlowDocument LineHeight="2"></FlowDocument>
+                                </RichTextBox.Document>
+                            </RichTextBox>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10">
+                            <TextBox x:Name="tbContactPath" Width="300" md:TextFieldAssist.HasTextAreaBox="True"></TextBox>
+                            <Button x:Name="btnSelect" Width="100" Margin="5" Click="btnSelect_Click"></Button>
+                            <Button x:Name="btnImport" Width="100" Margin="5" Click="btnImport_Click"></Button>
+                            <Button x:Name="btnClearContact" Width="140" Margin="30 5" Click="btnClearContact_Click"></Button>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabSendMsg" Loaded="tabSendMsg_Loaded">
+                <TabItem.Header>
+                    <Label x:Name="lblSendMsg" Content="发送消息" MouseLeftButtonDown="lblSendMsg_MouseLeftButtonDown"></Label>
+                </TabItem.Header>
+                <Grid x:Name="gridSendMsg">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="210"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <wpftreeview:WpfTreeView x:Name="wpfTreeview2"/>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock x:Name="tbSelectMsgType" Text="请选择消息类型" VerticalAlignment="Center" Margin="10"></TextBlock>
+                            <ComboBox x:Name="cbMsgTypes" VerticalAlignment="Center" Width="150" Margin="10" SelectionChanged="cbMsgTypes_SelectionChanged">
+
+                            </ComboBox>
+                        </StackPanel>
+
+                        <GroupBox x:Name="gpText" Grid.Row="1" Header="文本">
+                            <RichTextBox x:Name="rtbMessage">
+                                <RichTextBox.Document>
+                                    <FlowDocument LineHeight="2"></FlowDocument>
+                                </RichTextBox.Document>
+                            </RichTextBox>
+                        </GroupBox>
+                        <GroupBox x:Name="gpPicture" Grid.Row="2" Header="图片">
+                            <WindowsFormsHost>
+                                <winform:Panel x:Name="panelPics" AutoScroll="True"></winform:Panel>
+                            </WindowsFormsHost>
+                        </GroupBox>
+                        <GroupBox x:Name="gpVideo" Grid.Row="3" Header="视频">
+                            <WindowsFormsHost>
+                                <winform:Panel x:Name="panelVideos" AutoScroll="True"></winform:Panel>
+                            </WindowsFormsHost>
+                        </GroupBox>
+                    </Grid>
+
+                    <Grid Grid.Column="2">
+                        <StackPanel VerticalAlignment="Center">
+                            <Button x:Name="btnClearMessage" Width="150" Margin="5" Click="btnClearMessage_Click"></Button>
+
+                            <StackPanel Margin="0 20">
+                                <Button x:Name="btnAddPicture" Width="150" Margin="5" Click="btnAddPicture_Click"></Button>
+                                <Button x:Name="btnDeletePicture" Width="150" Margin="5" Click="btnDeletePicture_Click"></Button>
+                            </StackPanel>
+
+                            <StackPanel Margin="0 20">
+                                <Button x:Name="btnAddVideo" Width="150" Margin="5" Click="btnAddVideo_Click"></Button>
+                                <Button x:Name="btnDeleteVideo" Width="150" Margin="5" Click="btnDeleteVideo_Click"></Button>
+                            </StackPanel>
+
+                            <StackPanel Margin="20 10">
+                                <TextBlock x:Name="lblSendMsgTimes" Margin="3"></TextBlock>
+                                <TextBox x:Name="tbSendMsgTimes" md:TextFieldAssist.HasTextAreaBox="True" Margin="3">1</TextBox>
+                            </StackPanel>
+
+                            <StackPanel Margin="20 10">
+                                <TextBlock x:Name="lblMsgTaskInterval" Margin="3"></TextBlock>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBox x:Name="tbMsgMinInterval" Width="50" md:TextFieldAssist.HasTextAreaBox="True" Margin="3">1</TextBox>
+                                    <TextBlock Margin="10 0" VerticalAlignment="Center"> -</TextBlock>
+                                    <TextBox x:Name="tbMsgMaxInterval" Width="50" md:TextFieldAssist.HasTextAreaBox="True" Margin="3">2</TextBox>
+                                    <TextBlock x:Name="lblIntervalUnit" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+
+                            <Button x:Name="btnSubmitMsgTask" Width="150" Margin="5" Click="btnSubmitMsgTask_Click"></Button>
+                        </StackPanel>
+                    </Grid>
+
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabPostMoment" Loaded="tabPostMoment_Loaded">
+                <TabItem.Header>
+                    <Label x:Name="lblPostMoment" Content="发送动态" MouseLeftButtonDown="lblPostMoment_MouseLeftButtonDown"></Label>
+                </TabItem.Header>
+                <Grid x:Name="gridPostMoment">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid>
+                        <wpftreeview:WpfTreeView x:Name="wpfTreeview3" />
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+
+                        <GroupBox x:Name="gpText2" Header="文本">
+                            <RichTextBox x:Name="rtbMessage2">
+                                <RichTextBox.Document>
+                                    <FlowDocument LineHeight="2"></FlowDocument>
+                                </RichTextBox.Document>
+                            </RichTextBox>
+                        </GroupBox>
+                        <GroupBox x:Name="gpPicture2" Grid.Row="1" Header="图片">
+                            <WindowsFormsHost>
+                                <winform:Panel x:Name="panelPics2" AutoScroll="True"></winform:Panel>
+                            </WindowsFormsHost>
+                        </GroupBox>
+
+                    </Grid>
+
+                    <Grid Grid.Column="2">
+                        <StackPanel VerticalAlignment="Center">
+                            <Button x:Name="btnClearMessage2" Width="150" Margin="5" Click="btnClearMessage2_Click"></Button>
+
+                            <StackPanel Margin="0 20">
+                                <Button x:Name="btnAddPicture2" Width="150" Margin="5" Click="btnAddPicture_Click"></Button>
+                                <Button x:Name="btnDeletePicture2" Width="150" Margin="5" Click="btnDeletePicture_Click"></Button>
+                            </StackPanel>
+
+
+                            <Button x:Name="btnPostMoment" Width="150" Margin="5" Click="btnPostMoment_Click"></Button>
+                        </StackPanel>
+                    </Grid>
+
+                </Grid>
+
+            </TabItem>
+
+
+            <TabItem x:Name="tabCreateGroup" Loaded="tabCreateGroup_Loaded">
+                <TabItem.Header>
+                    <Label x:Name="lblCreateGroup" Content="创建群组" MouseLeftButtonDown="lblCreateGroup_MouseLeftButtonDown"></Label>
+                </TabItem.Header>
+
+                <Grid x:Name="gridCreateGroup">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <wpftreeview:WpfTreeView x:Name="wpfTreeview5"></wpftreeview:WpfTreeView>
+
+                    <Grid Grid.Column="1">
+                        <StackPanel Margin="5 15 5 5">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock x:Name="lblGroupName" Width="180" VerticalAlignment="Center" Margin="5"></TextBlock>
+                                <TextBox x:Name="tbGroupName" Width="250" Margin="5" md:TextFieldAssist.HasTextAreaBox="True"></TextBox>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock x:Name="lblGroupMemberRange" Width="180" VerticalAlignment="Center" Margin="5"></TextBlock>
+                                <TextBox Width="80" Margin="5" md:TextFieldAssist.HasTextAreaBox="True"></TextBox>
+                                <TextBlock x:Name="lblGroupMemberTo" Text=" - " VerticalAlignment="Center" Margin="5"></TextBlock>
+                                <TextBox Width="80" Margin="5" md:TextFieldAssist.HasTextAreaBox="True"></TextBox>
+                                <TextBlock x:Name="lblGroupMemberExplanation" Margin="15 5 5 5" VerticalAlignment="Center"></TextBlock>
+                            </StackPanel>
+                            <Button x:Name="btnSumitCreateGroup" Width="150" HorizontalAlignment="Left" Margin="195 10 0 0" Click="btnSumitCreateGroup_Click"></Button>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem x:Name="tabSendGroupMessage" Loaded="tabSendGroupMessage_Loaded">
+                <TabItem.Header>
+                    <Label x:Name="lblSendGroupMessage" Content="发送群组消息" MouseLeftButtonDown="lblSendGroupMessage_MouseLeftButtonDown"></Label>
+                </TabItem.Header>
+
+                <Grid x:Name="gridSendGroupMessage">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="210"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <wpftreeview:WpfTreeView x:Name="wpfTreeview6"/>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock x:Name="tbSelectGroupMsgType" Text="请选择消息类型" VerticalAlignment="Center" Margin="10"></TextBlock>
+                            <ComboBox x:Name="cbGroupMsgTypes" VerticalAlignment="Center" Width="150" Margin="10" SelectionChanged="cbGroupMsgTypes_SelectionChanged">
+
+                            </ComboBox>
+                        </StackPanel>
+
+                        <GroupBox x:Name="gpGroupText" Grid.Row="1" Header="文本">
+                            <RichTextBox x:Name="rtbGroupMessage">
+                                <RichTextBox.Document>
+                                    <FlowDocument LineHeight="2"></FlowDocument>
+                                </RichTextBox.Document>
+                            </RichTextBox>
+                        </GroupBox>
+                        <GroupBox x:Name="gpGroupPicture" Grid.Row="2" Header="图片">
+                            <WindowsFormsHost>
+                                <winform:Panel x:Name="panelPicsGroup" AutoScroll="True"></winform:Panel>
+                            </WindowsFormsHost>
+                        </GroupBox>
+                        <GroupBox x:Name="gpGroupVideo" Grid.Row="3" Header="视频">
+                            <WindowsFormsHost>
+                                <winform:Panel x:Name="panelVideosGroup" AutoScroll="True"></winform:Panel>
+                            </WindowsFormsHost>
+                        </GroupBox>
+                    </Grid>
+
+                    <Grid Grid.Column="2">
+                        <StackPanel VerticalAlignment="Center">
+                            <Button x:Name="btnClearGroupMessage" Width="150" Margin="5" Click="btnClearGroupMessage_Click"></Button>
+
+                            <StackPanel Margin="0 20">
+                                <Button x:Name="btnAddGroupPicture" Width="150" Margin="5" Click="btnAddGroupPicture_Click"></Button>
+                                <Button x:Name="btnDeleteGroupPicture" Width="150" Margin="5" Click="btnDeleteGroupPicture_Click"></Button>
+                            </StackPanel>
+
+                            <StackPanel Margin="0 20">
+                                <Button x:Name="btnAddGroupVideo" Width="150" Margin="5" Click="btnAddGroupVideo_Click"></Button>
+                                <Button x:Name="btnDeleteGroupVideo" Width="150" Margin="5" Click="btnDeleteGroupVideo_Click"></Button>
+                            </StackPanel>
+
+                            <StackPanel Margin="20 10">
+                                <TextBlock x:Name="lblSendGroupMsgTimes" Margin="3"></TextBlock>
+                                <TextBox x:Name="tbSendGroupMsgTimes" md:TextFieldAssist.HasTextAreaBox="True" Margin="3">1</TextBox>
+                            </StackPanel>
+
+                            <StackPanel Margin="20 10">
+                                <TextBlock x:Name="lblGroupMsgTaskInterval" Margin="3"></TextBlock>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBox x:Name="tbGroupMsgMinInterval" Width="50" md:TextFieldAssist.HasTextAreaBox="True" Margin="3">1</TextBox>
+                                    <TextBlock Margin="10 0" VerticalAlignment="Center"> -</TextBlock>
+                                    <TextBox x:Name="tbGroupMsgMaxInterval" Width="50" md:TextFieldAssist.HasTextAreaBox="True" Margin="3">2</TextBox>
+                                    <TextBlock x:Name="lblGroupIntervalUnit" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+
+                            <Button x:Name="btnGroupSubmitMsgTask" Width="150" Margin="5" Click="btnGroupSubmitMsgTask_Click"></Button>
+                        </StackPanel>
+                    </Grid>
+
+                </Grid>
+            </TabItem>
+
+            <TabItem x:Name="tabProfile" Loaded="tabProfile_Loaded">
+                <TabItem.Header>
+                    <Label x:Name="lblProfile" Content="个人信息" MouseLeftButtonDown="lblProfile_MouseLeftButtonDown"></Label>
+                </TabItem.Header>
+
+                <Grid x:Name="gridProfile">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="180"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <wpftreeview:WpfTreeView x:Name="wpfTreeview4"/>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <GroupBox x:Name="gpText3" Header="文本">
+                            <StackPanel>
+                                <StackPanel Orientation="Horizontal" Margin="10">
+                                    <TextBlock x:Name="lblNickName" VerticalAlignment="Center" Margin="10" xml:space="preserve"></TextBlock>
+                                    <TextBox x:Name="tbNickName" Margin="10" Width="200"  md:TextFieldAssist.HasTextAreaBox="True"></TextBox>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" Margin="10">
+                                    <TextBlock x:Name="lblDescription" VerticalAlignment="Top" Margin="10"></TextBlock>
+                                    <RichTextBox x:Name="rtbDescription" Margin="10" Width="400" Height="150">
+                                        <RichTextBox.Document>
+                                            <FlowDocument LineHeight="2"></FlowDocument>
+                                        </RichTextBox.Document>
+                                    </RichTextBox>
+                                </StackPanel>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox x:Name="gpPicture3" Grid.Row="1" Header="图片">
+                            <WindowsFormsHost>
+                                <winform:Panel x:Name="panelPics3" AutoScroll="True"></winform:Panel>
+                            </WindowsFormsHost>
+                        </GroupBox>
+
+                    </Grid>
+
+                    <Grid Grid.Column="2">
+                        <StackPanel VerticalAlignment="Center">
+                            <Button x:Name="btnClearMessage3" Width="150" Margin="5" Click="btnClearMessage3_Click"></Button>
+
+                            <StackPanel Margin="0 20">
+                                <Button x:Name="btnAddPicture3" Width="150" Margin="5" Click="btnAddPicture_Click"></Button>
+                                <Button x:Name="btnDeletePicture3" Width="150" Margin="5" Click="btnDeletePicture_Click"></Button>
+                            </StackPanel>
+
+
+                            <Button x:Name="btnSaveProfile" Width="150" Margin="5" Click="btnSaveProfile_Click"></Button>
+                        </StackPanel>
+                    </Grid>
+
+                </Grid>
+
+            </TabItem>
+
+            <TabItem x:Name="tabTaskManagement" Loaded="tabTaskManagement_Loaded">
+                <TabItem.Header>
+                    <Label x:Name="lblTaskManagement" Content="任务管理" MouseLeftButtonDown="lblTaskManagement_MouseLeftButtonDown"></Label>
+                </TabItem.Header>
+
+                <Grid x:Name="gridTaskManagement">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Margin="0 20 0 0">
+                        <Button x:Name="btnSearchTask" Margin="10" Click="btnSearchTask_Click"></Button>
+                        <Button x:Name="btnRefreshTask" Margin="10" Click="btnRefreshTask_Click"></Button>
+                        <Button x:Name="btnDeleteTask" Margin="10" Click="btnDeleteTask_Click"></Button>
+                        <Button x:Name="btnClearTask" Margin="10" Click="btnClearTask_Click"></Button>
+                    </StackPanel>
+
+                    <DataGrid x:Name="datagrid" Grid.Column="1" CanUserAddRows="False" IsReadOnly="True" CanUserDeleteRows="True" AutoGenerateColumns="False" Grid.ColumnSpan="4">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="colNo" Binding="{Binding Id}"></DataGridTextColumn>
+                            <DataGridTextColumn x:Name="colTaskType" Binding="{Binding TypeDescripton}"></DataGridTextColumn>
+                            <DataGridTextColumn x:Name="colPhone" Binding="{Binding MobileIndex}"></DataGridTextColumn>
+                            <DataGridTextColumn x:Name="colParameter" Binding="{Binding Bodys}"></DataGridTextColumn>
+                            <DataGridTextColumn x:Name="colStatus" Binding="{Binding Status}"></DataGridTextColumn>
+                            <DataGridTextColumn x:Name="colResult" Binding="{Binding ResultVal}"></DataGridTextColumn>
+                            <DataGridTextColumn x:Name="colTime" Binding="{Binding Created}"></DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+            <TabItem x:Name="tabLoginInfo" Loaded="tabLoginInfo_Loaded">
+                <TabItem.Header>
+                    <Label x:Name="lblLoginInfo" Content="登录信息" MouseLeftButtonDown="lblLoginInfo_MouseLeftButtonDown" ></Label>
+                </TabItem.Header>
+                <Grid x:Name="gridLoginInfo">
+                    <DataGrid x:Name="dgPhone" Margin="10" AutoGenerateColumns="False" GridLinesVisibility="None" RowHeaderWidth="0" CanUserDeleteRows="False" CanUserAddRows="False" RenderTransformOrigin="0.537,0.501" FontSize="14">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="phoneId"  Header="ID" Width="50" Binding="{Binding id}"/>
+                            <DataGridTemplateColumn Header="电话号码" MinWidth="130" Width="0.5*" x:Name="phonenum" >
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox  Text="{Binding phonenum,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="说明" MinWidth="130" Width="0.5*"  x:Name="Explain" >
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox  Text="{Binding imei,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="代理IP" MinWidth="130" Width="0.5*" x:Name="ProxyIP" >
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox  Text="{Binding androidid,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="代理端口" MinWidth="130" Width="0.5*" x:Name="scanport">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox  Text="{Binding created,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn  MinWidth="200" Width="0.3*" >
+                                <DataGridTemplateColumn.CellTemplate >
+                                    <DataTemplate >
+                                        <Grid HorizontalAlignment="Center">
+                                            <StackPanel Orientation="Horizontal">
+                                                <Button x:Name="btnSave" Content="{Binding Source={x:Static local:Res.Culture}, Path=Button.btnSave}" Width="68" Height="27"   BorderThickness="0"  HorizontalAlignment="Center" Margin="0,0,25,0" VerticalAlignment="Top" Click="btnSave_Click"/>
+                                                <Button x:Name="btnLogin" Content="{Binding Source={x:Static local:ResD.CultureD},Path=Button.btnLogin}" Width="80" Height="27" BorderThickness="0"  HorizontalAlignment="Center"  Margin="0,0,35,0" VerticalAlignment="Top" />
+                                            </StackPanel>
+                                        </Grid>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</metro:MetroWindow>

@@ -1,0 +1,27 @@
+﻿<metro:MetroWindow x:Class="Wx.Qunkong360.Wpf.AuthView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wx.Qunkong360.Wpf"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="AuthView" Height="346" Width="580" ResizeMode="NoResize" WindowStyle="ToolWindow"  FontSize="20" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://application:,,,/qunkong360;component/Images/background.png" TileMode="Tile"  ViewportUnits="Absolute" Stretch="None" Viewport="0,0,300,150" Opacity="0.5">
+                <ImageBrush.Transform>
+                    <RotateTransform Angle="-30"></RotateTransform>
+                </ImageBrush.Transform>
+            </ImageBrush>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock x:Name="lblAuthTips" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Margin="50 0">Authentication</TextBlock>
+        <Button x:Name="btnRetry" Grid.Column="1" Width="120" Click="btnRetry_Click" Visibility="Collapsed"></Button>
+    </Grid>
+</metro:MetroWindow>

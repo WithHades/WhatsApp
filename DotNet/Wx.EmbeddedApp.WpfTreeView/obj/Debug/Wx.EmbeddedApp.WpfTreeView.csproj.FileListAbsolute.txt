@@ -1,0 +1,14 @@
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\bin\Debug\WpfTreeView.dll
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\bin\Debug\WpfTreeView.pdb
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\Wx.EmbeddedApp.WpfTreeView.csprojAssemblyReference.cache
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\WpfTreeView.g.cs
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\WpfTreeView_MarkupCompile.cache
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\WpfTreeView_MarkupCompile.lref
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\WpfTreeView.baml
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\WpfTreeView.g.resources
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\WpfTreeView.Properties.Resources.resources
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\Wx.EmbeddedApp.WpfTreeView.csproj.GenerateResource.cache
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\Wx.EmbeddedApp.WpfTreeView.csproj.CoreCompileInputs.cache
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\WpfTreeView.dll
+C:\Users\sa\Desktop\Work087\Work\DotNet\Wx.EmbeddedApp.WpfTreeView\obj\Debug\WpfTreeView.pdb
